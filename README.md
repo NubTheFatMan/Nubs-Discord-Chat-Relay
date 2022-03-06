@@ -32,8 +32,8 @@ For a step by step tutorial, please watch this [video]().
 8. Go to [Discord Developer Portal](https://discord.com/developers/applications) and create a new application.
 9. Go to the bot section and create a new bot account.
 10. Copy the bot's token into `config.json` to the variable `DiscordBotToken`.
-11. Head to [Steams Web API Key](https://steamcommunity.com/dev/apikey) and create an API key for the bot. The domain can be anything.
-12. Copy your API key into `config.json` to the variable `SteamAPIKey`.
+11. Head to [Steams Web API Key](https://steamcommunity.com/dev/apikey) and create an API key for the bot. The domain can be anything. This will be used to get Steam avatars. If you don't want to use them, skip this step and the next step.
+12. Copy your API key into `config.json` to the variable `SteamAPIKey`. 
 13. The `SteamAvatarRefreshTime` variable is how many minutes until a Steam avatar is refreshed. You can leave this alone.
 14. Set `ServerIP` to the IP of the gmod server. Remember the notes in *step 4* of the gmod server setup.
 15. The `LogConnections` variable will log any attempted connections to a text file `connection_log.txt`. Make it false if you don't want them to be logged.
