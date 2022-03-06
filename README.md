@@ -1,7 +1,7 @@
 # Nubs Discord Chat Relay
 Relays messages sent in Discord to a Garry's Mod server, and vice versa. It works by you hosting a Discord bot. This is needed to read messages and send player messages as webhooks. We can't use the Garry's Mod server to post to a webhook because Discord blocks post requests from Garry's Mod for some reason. The bot and server connect by the bot hosting a websocker server.
 
-For a step by step tutorial, please watch this [video]().
+For a step by step tutorial, please watch this [video]() (not yet available).
 
 # Installation:
 ### Garry's Mod server setup:
